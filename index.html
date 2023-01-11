@@ -5,15 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <meta name="description" content="Consoli Tech, LLC is an LLC that is headquartered in Savannah, GA.">
-  <style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap" rel="stylesheet"> 
+ <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Source Sans Pro' sans-serif;
       font-size: 1.2em;
       line-height: 1.5;
       margin: 0 auto;
       max-width: 800px;
       padding: 0 1em;
+      background-color: #ccc;
     }
+
+  h1 {
+	font-weight: 200;
+}
 
     a {
       color: darkblue;
@@ -23,14 +31,27 @@
     a:hover {
       text-decoration: underline;
     }
+
+    h1 {
+      text-align: center;
+}
+
+   img {
+      border-radius: 50%;
+}
+
+    .flex-container {
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
   </style>
 </head>
 <body>
-  <h1>Consoli Tech, LLC</h1>
-  <p>
-    Welcome to the homepage of Consoli Tech. We are the company that is developing the <a href="https://liftstation.cloud">LiftStation.cloud</a> software. This software handles regulatory reporting for
-    water / wastewater utilities in the State of Georgia.
-    In the future we will release more software for water and waste water utilities.
-  </p>
+  <h1>Consoli Tech</h1>
+  <div class="flex-container">
+    <img src="consoli-tech.png" alt="Consoli Tech logo">
+  </div>
 </body>
 </html>
